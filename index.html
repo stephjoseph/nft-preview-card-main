@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+    <!-- <link rel="stylesheet" href="./dist/output.css" /> -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Frontend Mentor | NFT preview card component</title>
+  </head>
+  <body
+    class="
+      flex
+      items-center
+      justify-center
+      font-['Outfit']
+      text-lg
+      bg-[#0d192b]
+      text-[#8bacda]
+    "
+  >
+    <div class="container flex flex-col items-center justify-center h-screen">
+      <div
+        class="
+          card
+          p-6
+          w-10/12
+          rounded-2xl
+          bg-[#14253d]
+          sm:w-6/12
+          md:w-5/12
+          lg:w-4/12
+          xl:w-3/12
+          2xl:w-1/5
+        "
+      >
+        <div class="rounded-md relative">
+          <img
+            class="rounded-xl h-auto"
+            src="./images/image-equilibrium.jpg"
+            alt=""
+          />
+          <a class="group" href="">
+            <div
+              class="
+                absolute
+                top-0
+                right-0
+                bottom-0
+                left-0
+                h-full
+                w-full
+                rounded-xl
+                opacity-0
+                transition
+                duration-300
+                ease-linear
+                bg-[#00fff7]
+                group-hover:opacity-50
+              "
+            ></div>
+            <img
+              class="
+                absolute
+                top-0
+                left-0
+                bottom-0
+                right-0
+                m-auto
+                opacity-0
+                transition
+                duration-300
+                ease-linear
+                group-hover:opacity-100
+              "
+              src="./images/icon-view.svg"
+              alt=""
+            />
+          </a>
+        </div>
+
+        <h3 class="mt-6 text-xl font-bold text-white">
+          <a class="hover:text-[#00fff7]" href="#">Equilibrium #3429</a>
+        </h3>
+
+        <p class="mt-3 text-base font-light">
+          Our Equilibrium collection promotes balance and calm.
+        </p>
+        <div class="mt-3 inline-block w-full">
+          <div class="flex items-center float-left">
+            <img src="./images/icon-ethereum.svg" alt="" />
+            <p class="pl-2 text-base price font-semibold text-[#00fff7]">
+              0.041 ETH
+            </p>
+          </div>
+          <div class="flex items-center float-right">
+            <img src="./images/icon-clock.svg" alt="" />
+            <p class="pl-2 text-base">3 days left</p>
+          </div>
+        </div>
+        <hr class="mt-1" />
+        <div class="mt-4 flex items-center">
+          <img
+            class="w-8 border border-white border-solid rounded-full"
+            src="./images/image-avatar.png"
+            alt=""
+          />
+          <p class="pl-4 text-sm">
+            Creation of
+            <a
+              class="
+                text-white
+                hover:text-[#00fff7]
+                transition
+                duration-300
+                ease-linear
+              "
+              href="#"
+              >Julius Wyvern</a
+            >
+          </p>
+        </div>
+      </div>
+      <!-- ATTRIBUTION -->
+      <div class="text-xs text-white text-center mt-3">
+        Challenge by
+        <a
+          class="text-[#3e52a3]"
+          href="https://www.frontendmentor.io?ref=challenge"
+          target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a class="text-[#3e52a3]" href="#">Stephen Joseph</a>.
+      </div>
+    </div>
+  </body>
+</html>
