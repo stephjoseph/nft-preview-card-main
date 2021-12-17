@@ -42,7 +42,6 @@ Users should be able to:
 - [Tailwind CSS](http://tailwindcss.com/)
 - CSS custom properties
 - Flexbox
-- CSS Grid
 - Mobile-first workflow
 
 
