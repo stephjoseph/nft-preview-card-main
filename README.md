@@ -26,8 +26,8 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot/nft-preview-card-cs-desktop.png)
-![](./screenshot/nft-preview-card-cs-mobile.png)
+![](./screenshots/nft-preview-card-cs-desktop.png)
+![](./screenshots/nft-preview-card-cs-mobile.png)
 
 
 ### Links
